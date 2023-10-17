@@ -1,4 +1,39 @@
+:root {
+  --secondary-color: #bef2ff;
+  --branding-color: #34bcd7;
+}
+
 h1 {
   font-family: "Russo One", sans-serif;
   text-align: center;
+}
+
+.hero {
+  background: var(--secondary-color);
+  padding: 160px 20px;
+  text-align: center;
+}
+
+.hero p {
+  font-size: 28px;
+  margin: 0;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 30px;
+  padding: 15px 30px;
+  text-decoration: none;
+}
+
+.btn-branding:hover {
+  background: white;
+  color: var(--branding-color);
+}
+
+.contact-button {
+  margin: 40px 40px;
 }
