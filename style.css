@@ -57,6 +57,10 @@ p {
   padding: 0 30px;
 }
 
+#subheading {
+  font-family: "Russo One", sans-serif;
+}
+
 @media (max-width: 900px) {
   .hero h1 {
     font-size: 45px;
