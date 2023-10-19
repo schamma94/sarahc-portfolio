@@ -3,9 +3,25 @@
   --branding-color: #34bcd7;
 }
 
-h1 {
+.hero {
+  background: var(--secondary-color);
+  padding: 110px 35px;
+  text-align: center;
+}
+
+.hero h1 {
   font-family: "Russo One", sans-serif;
   font-size: 60px;
+  line-height: 1.5;
+}
+
+.hero h2 {
+  font-size: 28px;
+  margin-bottom: 5;
+}
+
+.hero p {
+  font-size: 35px;
 }
 
 p {
@@ -13,15 +29,8 @@ p {
   line-height: 30px;
 }
 
-.hero {
-  background: var(--secondary-color);
-  padding: 160px 20px;
-  text-align: center;
-}
-
-.hero p {
-  font-size: 28px;
-  margin: 0;
+#intro-msg {
+  font-weight: bold;
 }
 
 .btn-branding {
@@ -49,12 +58,12 @@ p {
 }
 
 @media (max-width: 900px) {
-  h1 {
-    font-size: 44px;
+  .hero h1 {
+    font-size: 45px;
     line-height: 1.5;
   }
-  h2 {
-    font-size: 35px;
+  .hero h2 {
+    font-size: 25px;
     line-height: 1.5;
   }
   .hero {
