@@ -1,6 +1,7 @@
 :root {
   --secondary-color: #bef2ff;
   --branding-color: #34bcd7;
+  --main-font: "Russo One", sans-serif;
 }
 
 .hero {
@@ -10,7 +11,7 @@
 }
 
 .hero h1 {
-  font-family: "Russo One", sans-serif;
+  font-family: var(--main-font);
   font-size: 60px;
   line-height: 1.5;
 }
@@ -58,7 +59,7 @@ p {
 }
 
 #subheading {
-  font-family: "Russo One", sans-serif;
+  font-family: var(--main-font);
 }
 
 @media (max-width: 900px) {
@@ -80,4 +81,22 @@ p {
     padding: 0;
     text-align: center;
   }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+}
+
+.about-section h1 {
+  font-family: var(--main-font);
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.about-section h3 {
+  font-size: 18px;
+}
+
+.about-section-content {
+  margin: 30px;
 }
