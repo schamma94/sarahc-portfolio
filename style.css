@@ -4,6 +4,38 @@
   --main-font: "Russo One", sans-serif;
 }
 
+.logo {
+  max-height: 50px;
+}
+
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  margin-left: 15px;
+}
+
+nav a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav li.active a {
+  color: var(--branding-color);
+}
+
 .hero {
   background: var(--secondary-color);
   padding: 110px 35px;
@@ -88,7 +120,7 @@ p {
 }
 
 .content-container {
-  padding: 50px;
+  padding: 10px;
 }
 
 .content h1 {
